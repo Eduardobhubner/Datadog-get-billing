@@ -10,7 +10,7 @@ def get_time():
     current_month_formatted = current_date.strftime('%Y-%m')
     return current_month_formatted
 
-def generate_csv_billing():
+def generate_syout_billing():
 
     date_now = get_time()
 
@@ -44,4 +44,4 @@ def generate_csv_billing():
         print("Error:", response.status_code)
 
 
-generate_csv_billing()
+generate_syout_billing()
