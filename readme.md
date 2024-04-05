@@ -2,22 +2,22 @@
 
 ## Requirements
 
--- API_KEY
--- DD_KEY
--- DATE_KEY (optional, default: date_now)
--- URL (optional, default: US1)
+- API_KEY
+- DD_KEY
+- DATE_KEY (optional, default: date_now)
+- URL (optional, default: US1)
 
 ## Output
 
--- Sub organization
--- License
--- Consumption
+- Sub organization
+- License
+- Consumption
 
 ## Building Image
 `docker build -t (NAME-BUILD):TAG .`
 
 ## Running Image
-`docker run -e API_KEY=your_api_key -e DD_KEY=your_dd_key image_name -e DATA_KEY=data(YYYY-MM) -e URL_KEY=url`
+`docker run -e API_KEY=your_api_key -e DD_KEY=your_dd_key  -e DATA_KEY=data(YYYY-MM) -e URL_KEY=url image_name`
 
 ## Push Image
 
