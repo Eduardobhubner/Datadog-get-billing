@@ -12,6 +12,7 @@
 - Sub organization
 - License
 - Consumption
+- Type_usage
 
 ## Building Image
 `docker build -t (NAME-BUILD):TAG .`

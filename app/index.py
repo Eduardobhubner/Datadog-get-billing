@@ -36,7 +36,8 @@ def generate_syout_billing():
 
             for key, value in usage["usage"].items():
                 usage = value["org_billable_usage"]
-                syout = f"{org_name}, {key}, {usage}"
+                type_usage = value["usage_unit"]
+                syout = f"{org_name}, {key}, {usage}, {type_usage}"
                 print(syout)
 
     else:
