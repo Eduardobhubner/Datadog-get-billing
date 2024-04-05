@@ -21,9 +21,12 @@
 
 ## Push Image
 
-`docker build -t dc-billing:latest . ` 
-`docker tag dc-billing eduardobhubner/dc-billing`
-`docker login`
-`docker push eduardobhubner/dc-billing (could also be done through the interactive button on the desktopHub which also works)`
+```
+    docker build -t dc-billing:latest .  
+    docker tag dc-billing eduardobhubner/dc-billing
+    docker login
+    docker push eduardobhubner/dc-billing (could also be done through the interactive button on the desktopHub which also works)
+
+```
 
 
